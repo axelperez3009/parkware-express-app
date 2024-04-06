@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { prisma } from "../app";
+import { prisma } from "..";
 
 const CreateOrder = async (req: Request, res: Response) => {
   try {

@@ -1,7 +1,7 @@
 import crypto from "crypto";
 import { Prisma } from "@prisma/client";
 import { Request, Response, NextFunction } from "express";
-import { prisma } from "../app";
+import { prisma } from "..";
 import * as OTPAuth from "otpauth";
 import { encode } from "hi-base32";
 
